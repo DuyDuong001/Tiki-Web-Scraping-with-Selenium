@@ -1,13 +1,16 @@
 # Tiki-Web-Scraping-with-Selenium
+
 Build a web-crawler that take in a Tiki URL and return a dataframe contains information of products.
 
 ##### Install resources
 ##### install selenium and other resources for crawling data
+
 !pip install selenium
 !apt-get update
 !apt install chromium-chromedriver
 
 ##### Import necessary libraries
+
 import re
 import time
 import pandas as pd
