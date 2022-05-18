@@ -258,8 +258,8 @@ print('Scraping', main_cat['Name'])
 print('Main link:', main_cat['URL'])
 
 prod_data = [] #Lưu list cộng gộp của tất cả các trang 
-# #prod_data dùng trong trường hợp muốn làm nhiều trang web 
-# #prod_data[data_1, data_2,...]
+  # prod_data dùng trong trường hợp muốn làm nhiều trang web 
+  # prod_data[data_1, data_2,...]
 
 no_of_page = 3 # number of pages to scrap 
 result_check = check_no_of_page(no_of_page)
